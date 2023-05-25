@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     font-family: Century Gothic;
+}
+header{
+    background-image: url(img1.jpg);
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    margin-top: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20 px;
+    border: 2px solid greenyellow;
+
+}
+ul li.active a{
+    background-color: aqua;
+    color:orange;
+}
+ul li a:hover{
+background-color: white;
+color: black ;
+}
+.logo img{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+    color: brown;
+    font-size: 70px;
+}
+.button
+{
+    font-size: 60px;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-60%,-60%);
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    font-size: large;
+    border: 2px solid red;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+.btn:hover{
+    background-color: white;
+color: black ;
+text-align: center;
+}
